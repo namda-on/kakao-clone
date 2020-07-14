@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/1e3dd0c09a.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Frineds | Kakao Clone</title>
   </head>
   <body>
@@ -39,12 +40,12 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
-          <div class="friend_column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avartar" />
-            <div class="friend_content">
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
+            <div class="friend__content">
               <span class="friend__name">
-                Plus Friend
+                박진용
               </span>
               <span class="friend__status">
                 훈련중
@@ -54,13 +55,14 @@
         </div>
       </header>
       <div class="friends__plus">
-        <h5 class="friends__plus-tilte">Plus friend</h5>
+        <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend">
-          <img src="images/avatar.jpg" class="g-avatar friend__avartar" />
-          <div class="friend_content">
+          <img src="images/avatar.jpg" class=" friend__avatar" />
+          <div class="friend__content">
             <span class="friend__name">
               Plus Friend
             </span>
+           
           </div>
         </div>
       </div>
@@ -68,13 +70,13 @@
         <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avartar" />
-            <div class="friend_content">
+            <img src="images/avatar.jpg" class=" friend__avatar" />
+            <div class="friend__content">
               <span class="friend__name">
-                Plus Friend
+                지헌이형
               </span>
               <span class="friend__status">
-                훈련중
+                ㅋㅋ
               </span>
             </div>
           </div>
@@ -82,8 +84,10 @@
             <div class="friend__now-listening">
               <span>
                 "좁아" - Zihunnid
+                
               </span>
-              <i class="fas fa-lay"></i>
+              <i class="fas fa-play"></i>
+          
             </div>
 
           </li>
@@ -94,11 +98,12 @@
       <ul class="nav__list">
         <li class="nav__list-itme">
           <a href="friends.html" class="nav__list-link">
-            <i class="fas fa-user"></i>
+            <i class="far fa-user"></i>
           </a>
         </li>
         <li class="nav__list-itme">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
@@ -114,5 +119,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScree__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
